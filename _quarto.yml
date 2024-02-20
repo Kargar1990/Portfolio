@@ -1,0 +1,21 @@
+project: 
+  type: website
+  output-dir: docs
+
+website: 
+  title: "Weclome to Sajad's Portfolio"
+  navbar:
+    left: 
+      - Home.qmd
+      - Experiences.qmd
+      - Projects.qmd
+      - Publications.qmd
+      - Skills.qmd
+      - Honors.qmd
+      - Contact.qmd
+
+format:
+  html:
+    theme: jolla
+    css: styless.css
+    toc: true
